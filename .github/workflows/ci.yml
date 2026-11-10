@@ -14,4 +14,4 @@ jobs:
       - run: echo "${{ github.repository }} à été cloné sur le runner"
       - name: List file in the repo
         run: ls ${{ github.workspace }}
-      - run: echo "Statut du job : ${{ job.status }}"
+    #   - run: echo "Statut du job : ${{ job.status }}"
